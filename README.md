@@ -51,9 +51,7 @@ After the code injection environment is set up, in the `Extras` panel, check the
 
 After building the ELF by running `make` or `make demo3d` earlier, the ELF should be in `out/demo3d` of this repository. Select `demo3d_reloc.elf` as the ELF to use, then when it asks for you to save the DLL, you can save it in the same folder. Because we selected `Install to /patches` earlier, the DLL patch will also be added to our `vfs/data/patches` folder next to `NitroKernel.dll`.
 
-> NOTE: To make sure all the hooks got properly resolved, you can open CTRMap through the command line using\
-`java -jar <CTRMAP-CE JAR NAME>`\
-to see if the functions hooked successfully.
+> NOTE: To make sure all the hooks got properly resolved, you can open CTRMap through the command line using `java -jar <CTRMAP-CE JAR NAME>` to see if the functions hooked successfully.
 
 As the last step, make your project's `vfs/data` folder has a NARC called `demo3d_seq_data.narc`. If it doesn't, make sure to follow the steps for building this NARC in the `Build Instructions` section of this README. After this, export a new ROM.
 
