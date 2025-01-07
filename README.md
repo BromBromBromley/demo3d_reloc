@@ -1,6 +1,6 @@
 # Relocatable Demo3D Cutscenes
 
-Original Creators: [HelloOO7](https://github.com/HelloOO7), [PlatinumMaster](https://github.com/PlatinumMaster)\
+Original Creators: [HelloOO7](https://github.com/HelloOO7)
 (Minor revisions by [Brom](https://github.com/brombrombromley))
 
 With this patch, the game's 3D cutscenes are moved from Overlay 293 into the file system for Pokémon White Version 2.
