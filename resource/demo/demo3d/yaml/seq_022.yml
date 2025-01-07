@@ -1,0 +1,358 @@
+SequenceID: 22
+Parameters:
+  Camera:
+    AnimeID: 474
+    FOVYSin: 12.0
+    FOVYCos: 12.0
+    ZFar: 2048.0
+    ZNear: 0.100097656
+    TopScreenOffset: 64
+    BottomScreenOffset: -65
+  RenderState:
+    IsVBlank30FPS: true
+    IsDual3DRender: true
+    AntiAliasing: true
+    AlphaBlend: true
+    AlphaTest:
+      Enabled: false
+      Reference: 16
+    DepthSort:
+      Manual: false
+      WDepth: true
+    Disp1DotDepth: 0.0
+  Fog:
+    EnableFog: false
+    Color:
+      Red: 0
+      Green: 0
+      Blue: 0
+      Alpha: 255
+    Slope: 0
+    Blend: 0
+    Offset: 0
+    FogTable:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+  EdgeTable:
+    EnableEdgeColorTable: false
+    EdgeColorTable:
+      - Red: 0
+        Green: 0
+        Blue: 0
+      - Red: 0
+        Green: 0
+        Blue: 0
+      - Red: 0
+        Green: 0
+        Blue: 0
+      - Red: 0
+        Green: 0
+        Blue: 0
+      - Red: 0
+        Green: 0
+        Blue: 0
+      - Red: 0
+        Green: 0
+        Blue: 0
+      - Red: 0
+        Green: 0
+        Blue: 0
+      - Red: 0
+        Green: 0
+        Blue: 0
+  ClearColor:
+    Color:
+      Red: 0
+      Green: 0
+      Blue: 0
+      Alpha: 255
+    PolygonID: 0
+    Depth: 32767
+  BGMID: 65535
+  FieldAreaID: 389
+  CamAspectRatio: 5461
+  CamWScale: 1.0
+  FadeInType: 1
+  HasFadeInVSync: 5
+  FadeOutType: 0
+  HasFadeOutVSync: 0
+  Raw:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+
+PlaybackCommands:
+  - StartFrame: -1
+    OpCode: CMD_BGM_PLAY
+    BGMid: 1234
+  - StartFrame: 1
+    OpCode: CMD_SCREEN_FADE
+    Mode: NONE
+    Duration: 19
+    SrcColor: 16
+    FadeColor: 16
+  - StartFrame: 20
+    OpCode: CMD_SCREEN_FADE
+    Mode: NONE
+    Duration: 30
+    SrcColor: 16
+    FadeColor: 0
+  - StartFrame: 115
+    OpCode: CMD_SCREEN_FADE
+    Mode: NONE
+    Duration: 5
+    SrcColor: 0
+    FadeColor: 12
+  - StartFrame: 120
+    OpCode: CMD_SCREEN_FADE
+    Mode: NONE
+    Duration: 24
+    SrcColor: 12
+    FadeColor: 0
+  - StartFrame: 205
+    OpCode: CMD_SCREEN_FADE
+    Mode: NONE
+    Duration: 5
+    SrcColor: 0
+    FadeColor: 12
+  - StartFrame: 210
+    OpCode: CMD_SCREEN_FADE
+    Mode: NONE
+    Duration: 24
+    SrcColor: 12
+    FadeColor: 0
+  - StartFrame: 295
+    OpCode: CMD_SCREEN_FADE
+    Mode: NONE
+    Duration: 5
+    SrcColor: 0
+    FadeColor: 12
+  - StartFrame: 300
+    OpCode: CMD_SCREEN_FADE
+    Mode: NONE
+    Duration: 24
+    SrcColor: 12
+    FadeColor: 0
+  - StartFrame: 386
+    OpCode: CMD_SE_PLAY
+    SEid: 2046
+    Volume: 80
+    Pan: -1
+    Speed: -1
+    Channel: 2
+  - StartFrame: 504
+    OpCode: CMD_SE_PLAY
+    SEid: 2046
+    Volume: 80
+    Pan: -1
+    Speed: -1
+    Channel: 0
+  - StartFrame: 601
+    OpCode: CMD_SE_PLAY
+    SEid: 2399
+    Volume: 127
+    Pan: -1
+    Speed: -1
+    Channel: 1
+  - StartFrame: 639
+    OpCode: CMD_SE_PLAY
+    SEid: 2400
+    Volume: 127
+    Pan: -1
+    Speed: -1
+    Channel: 2
+  - StartFrame: 660
+    OpCode: CMD_SE_PLAY
+    SEid: 2401
+    Volume: 127
+    Pan: -1
+    Speed: -1
+    Channel: 0
+  - StartFrame: 682
+    OpCode: CMD_SE_PLAY
+    SEid: 2403
+    Volume: 90
+    Pan: -1
+    Speed: -1
+    Channel: 1
+  - StartFrame: 682
+    OpCode: CMD_SE_PLAY
+    SEid: 2405
+    Volume: 90
+    Pan: -1
+    Speed: -1
+    Channel: 2
+  - StartFrame: 861
+    OpCode: CMD_SE_ANIM_VOLUME
+    SEid: 2403
+    StartValue: 90
+    EndValue: 90
+    Duration: 1
+    Channel: 1
+  - StartFrame: 861
+    OpCode: CMD_SE_ANIM_VOLUME
+    SEid: 2405
+    StartValue: 90
+    EndValue: 90
+    Duration: 1
+    Channel: 2
+  - StartFrame: 950
+    OpCode: CMD_SE_ANIM_VOLUME
+    SEid: 2403
+    StartValue: 90
+    EndValue: 0
+    Duration: 60
+    Channel: 1
+  - StartFrame: 950
+    OpCode: CMD_SE_ANIM_VOLUME
+    SEid: 2405
+    StartValue: 90
+    EndValue: 0
+    Duration: 60
+    Channel: 2
+  - StartFrame: 980
+    OpCode: CMD_SCREEN_FADE
+    Mode: NONE
+    Duration: 30
+    SrcColor: 0
+    FadeColor: -16
+  - StartFrame: 0
+    OpCode: CMD_END
+
+EndCommands:
+  - StartFrame: 0
+    OpCode: CMD_BGM_STOP
+  - StartFrame: 0
+    OpCode: CMD_END
+
+Resources:
+  - ID: 0
+    BundleDecision: NONE
+    Bundles:
+      - ID: 0
+        AnimationGroups:
+          - ID: 0
+            DataIDs:
+              - 33
+  - ID: 1
+    BundleDecision: NONE
+    Bundles:
+      - ID: 0
+        AnimationGroups:
+          - ID: 0
+            DataIDs:
+              - 477
+              - 478
+              - 475
+              - 476
+  - ID: 2
+    BundleDecision: NONE
+    Bundles:
+      - ID: 0
+        AnimationGroups:
+          - ID: 0
+            DataIDs:
+              - 56
+              - 57
+              - 54
+              - 55
+  - ID: 3
+    BundleDecision: NONE
+    Bundles:
+      - ID: 0
+        AnimationGroups:
+          - ID: 0
+            DataIDs:
+              - 157
+              - 158
+              - 155
+              - 156
+              - 159
+

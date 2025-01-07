@@ -1,0 +1,357 @@
+SequenceID: 5
+Parameters:
+  Camera:
+    AnimeID: 288
+    FOVYSin: 40.0
+    FOVYCos: 40.0
+    ZFar: 2048.0
+    ZNear: 1.0
+    TopScreenOffset: 0
+    BottomScreenOffset: 0
+  RenderState:
+    IsVBlank30FPS: true
+    IsDual3DRender: false
+    AntiAliasing: true
+    AlphaBlend: true
+    AlphaTest:
+      Enabled: false
+      Reference: 16
+    DepthSort:
+      Manual: true
+      WDepth: true
+    Disp1DotDepth: 0.0
+  Fog:
+    EnableFog: false
+    Color:
+      Red: 0
+      Green: 0
+      Blue: 0
+      Alpha: 255
+    Slope: 0
+    Blend: 0
+    Offset: 0
+    FogTable:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+  EdgeTable:
+    EnableEdgeColorTable: true
+    EdgeColorTable:
+      - Red: 0
+        Green: 0
+        Blue: 0
+      - Red: 33
+        Green: 33
+        Blue: 33
+      - Red: 66
+        Green: 66
+        Blue: 66
+      - Red: 99
+        Green: 99
+        Blue: 99
+      - Red: 132
+        Green: 132
+        Blue: 132
+      - Red: 165
+        Green: 165
+        Blue: 165
+      - Red: 198
+        Green: 198
+        Blue: 198
+      - Red: 255
+        Green: 255
+        Blue: 255
+  ClearColor:
+    Color:
+      Red: 0
+      Green: 0
+      Blue: 0
+      Alpha: 255
+    PolygonID: 0
+    Depth: 32767
+  BGMID: 65535
+  FieldAreaID: 427
+  CamAspectRatio: 5461
+  CamWScale: 0.5
+  FadeInType: 1
+  HasFadeInVSync: 30
+  FadeOutType: 0
+  HasFadeOutVSync: 0
+  Raw:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+
+PlaybackCommands:
+  - StartFrame: 0
+    OpCode: CMD_BGM_PLAY
+    BGMid: 1102
+  - StartFrame: 40
+    OpCode: CMD_G2D_CELLGRA
+    GameFlags: 255
+    PalID: 0
+    GraID: 4
+    ScrID: 1
+    FadeInDuration: 50
+    StayDuration: 8
+    FadeOutDuration: 8
+  - StartFrame: 300
+    OpCode: CMD_G2D_CELLGRA
+    GameFlags: 23
+    PalID: 0
+    GraID: 4
+    ScrID: 2
+    FadeInDuration: 90
+    StayDuration: 8
+    FadeOutDuration: 8
+  - StartFrame: 300
+    OpCode: CMD_G2D_CELLGRA
+    GameFlags: 22
+    PalID: 0
+    GraID: 4
+    ScrID: 3
+    FadeInDuration: 90
+    StayDuration: 8
+    FadeOutDuration: 8
+  - StartFrame: 940
+    OpCode: CMD_SCREEN_FADE
+    Mode: NONE
+    Duration: 60
+    SrcColor: 0
+    FadeColor: -16
+  - StartFrame: 970
+    OpCode: CMD_BGM_FADE
+    Mode: OUT
+    Duration: 30
+  - StartFrame: 0
+    OpCode: CMD_END
+
+EndCommands:
+  - StartFrame: 0
+    OpCode: CMD_BGM_STOP
+  - StartFrame: 0
+    OpCode: CMD_END
+
+Resources:
+  - ID: 0
+    BundleDecision: NONE
+    Bundles:
+      - ID: 0
+        AnimationGroups:
+          - ID: 0
+            DataIDs:
+              - 292
+              - 294
+              - 293
+  - ID: 1
+    BundleDecision: NONE
+    Bundles:
+      - ID: 0
+        AnimationGroups:
+          - ID: 0
+            DataIDs:
+              - 295
+              - 296
+          - ID: 1
+            DataIDs:
+              - 295
+              - 296
+          - ID: 2
+            DataIDs:
+              - 295
+              - 298
+          - ID: 3
+            DataIDs:
+              - 295
+              - 297
+          - ID: 4
+            DataIDs:
+              - 295
+              - 297
+  - ID: 2
+    BundleDecision: NONE
+    Bundles:
+      - ID: 0
+        AnimationGroups:
+          - ID: 0
+            DataIDs:
+              - 290
+              - 291
+              - 289
+  - ID: 3
+    BundleDecision: SEASON
+    Bundles:
+      - ID: 0
+        AnimationGroups:
+          - ID: 0
+            DataIDs:
+              - 280
+              - 283
+      - ID: 1
+        AnimationGroups:
+          - ID: 0
+            DataIDs:
+              - 281
+              - 283
+      - ID: 2
+        AnimationGroups:
+          - ID: 0
+            DataIDs:
+              - 279
+              - 283
+      - ID: 3
+        AnimationGroups:
+          - ID: 0
+            DataIDs:
+              - 282
+              - 283
+  - ID: 4
+    BundleDecision: SEASON
+    Bundles:
+      - ID: 0
+        AnimationGroups:
+          - ID: 0
+            DataIDs:
+              - 285
+              - 283
+      - ID: 1
+        AnimationGroups:
+          - ID: 0
+            DataIDs:
+              - 286
+              - 283
+      - ID: 2
+        AnimationGroups:
+          - ID: 0
+            DataIDs:
+              - 284
+              - 283
+      - ID: 3
+        AnimationGroups:
+          - ID: 0
+            DataIDs:
+              - 287
+              - 283
+  - ID: 5
+    BundleDecision: SEASON
+    Bundles:
+      - ID: 0
+        AnimationGroups:
+          - ID: 0
+            DataIDs:
+              - 274
+              - 273
+      - ID: 1
+        AnimationGroups:
+          - ID: 0
+            DataIDs:
+              - 276
+              - 275
+      - ID: 2
+        AnimationGroups:
+          - ID: 0
+            DataIDs:
+              - 272
+              - 271
+      - ID: 3
+        AnimationGroups:
+          - ID: 0
+            DataIDs:
+              - 278
+              - 277
+  - ID: 6
+    BundleDecision: NONE
+    Bundles:
+      - ID: 0
+        AnimationGroups:
+          - ID: 0
+            DataIDs:
+              - 270
+              - 269
+

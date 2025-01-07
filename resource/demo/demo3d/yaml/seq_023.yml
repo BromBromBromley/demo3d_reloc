@@ -1,0 +1,273 @@
+SequenceID: 23
+Parameters:
+  Camera:
+    AnimeID: 441
+    FOVYSin: 40.0
+    FOVYCos: 40.0
+    ZFar: 2048.0
+    ZNear: 0.100097656
+    TopScreenOffset: 0
+    BottomScreenOffset: 0
+  RenderState:
+    IsVBlank30FPS: true
+    IsDual3DRender: false
+    AntiAliasing: true
+    AlphaBlend: true
+    AlphaTest:
+      Enabled: false
+      Reference: 16
+    DepthSort:
+      Manual: true
+      WDepth: true
+    Disp1DotDepth: 0.0
+  Fog:
+    EnableFog: false
+    Color:
+      Red: 0
+      Green: 0
+      Blue: 0
+      Alpha: 255
+    Slope: 0
+    Blend: 0
+    Offset: 0
+    FogTable:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+  EdgeTable:
+    EnableEdgeColorTable: false
+    EdgeColorTable:
+      - Red: 0
+        Green: 0
+        Blue: 0
+      - Red: 0
+        Green: 0
+        Blue: 0
+      - Red: 0
+        Green: 0
+        Blue: 0
+      - Red: 0
+        Green: 0
+        Blue: 0
+      - Red: 0
+        Green: 0
+        Blue: 0
+      - Red: 0
+        Green: 0
+        Blue: 0
+      - Red: 0
+        Green: 0
+        Blue: 0
+      - Red: 0
+        Green: 0
+        Blue: 0
+  ClearColor:
+    Color:
+      Red: 0
+      Green: 0
+      Blue: 0
+      Alpha: 255
+    PolygonID: 0
+    Depth: 32767
+  BGMID: 65535
+  FieldAreaID: 389
+  CamAspectRatio: 5461
+  CamWScale: 1.0
+  FadeInType: 0
+  HasFadeInVSync: 30
+  FadeOutType: 0
+  HasFadeOutVSync: 0
+  Raw:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+
+PlaybackCommands:
+  - StartFrame: -1
+    OpCode: CMD_BGM_PLAY
+    BGMid: 1228
+  - StartFrame: 1
+    OpCode: CMD_SE_PLAY
+    SEid: 2316
+    Volume: 127
+    Pan: -1
+    Speed: -1
+    Channel: 0
+  - StartFrame: 1
+    OpCode: CMD_SE_PLAY
+    SEid: 2317
+    Volume: 127
+    Pan: -1
+    Speed: -1
+    Channel: 1
+  - StartFrame: 1
+    OpCode: CMD_SE_PLAY
+    SEid: 2318
+    Volume: 127
+    Pan: -1
+    Speed: -1
+    Channel: 2
+  - StartFrame: 220
+    OpCode: CMD_BGM_FADE
+    Mode: OUT
+    Duration: 230
+  - StartFrame: 246
+    OpCode: CMD_SCREEN_FADE
+    Mode: NONE
+    Duration: 10
+    SrcColor: 0
+    FadeColor: 16
+  - StartFrame: 266
+    OpCode: CMD_SCREEN_FADE
+    Mode: NONE
+    Duration: 15
+    SrcColor: 16
+    FadeColor: 0
+  - StartFrame: 570
+    OpCode: CMD_SCREEN_FADE
+    Mode: NONE
+    Duration: 30
+    SrcColor: 0
+    FadeColor: -16
+  - StartFrame: 0
+    OpCode: CMD_END
+
+EndCommands:
+  - StartFrame: 0
+    OpCode: CMD_BGM_STOP
+  - StartFrame: 0
+    OpCode: CMD_END
+
+Resources:
+  - ID: 0
+    BundleDecision: NONE
+    Bundles:
+      - ID: 0
+        AnimationGroups:
+          - ID: 0
+            DataIDs:
+              - 439
+              - 440
+              - 438
+  - ID: 1
+    BundleDecision: NONE
+    Bundles:
+      - ID: 0
+        AnimationGroups:
+          - ID: 0
+            DataIDs:
+              - 390
+              - 391
+              - 388
+              - 389
+          - ID: 1
+            DataIDs:
+              - 390
+              - 391
+              - 388
+              - 389
+          - ID: 2
+            DataIDs:
+              - 394
+              - 395
+              - 392
+              - 393
+          - ID: 3
+            DataIDs:
+              - 398
+              - 399
+              - 396
+              - 397
+          - ID: 4
+            DataIDs:
+              - 398
+              - 399
+              - 396
+              - 397
+

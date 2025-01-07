@@ -1,0 +1,295 @@
+SequenceID: 7
+Parameters:
+  Camera:
+    AnimeID: 202
+    FOVYSin: 13.0
+    FOVYCos: 13.0
+    ZFar: 2048.0
+    ZNear: 0.100097656
+    TopScreenOffset: 58
+    BottomScreenOffset: -57
+  RenderState:
+    IsVBlank30FPS: true
+    IsDual3DRender: true
+    AntiAliasing: true
+    AlphaBlend: true
+    AlphaTest:
+      Enabled: false
+      Reference: 16
+    DepthSort:
+      Manual: false
+      WDepth: true
+    Disp1DotDepth: 0.0
+  Fog:
+    EnableFog: false
+    Color:
+      Red: 0
+      Green: 0
+      Blue: 0
+      Alpha: 255
+    Slope: 0
+    Blend: 0
+    Offset: 0
+    FogTable:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+  EdgeTable:
+    EnableEdgeColorTable: false
+    EdgeColorTable:
+      - Red: 0
+        Green: 0
+        Blue: 0
+      - Red: 0
+        Green: 0
+        Blue: 0
+      - Red: 0
+        Green: 0
+        Blue: 0
+      - Red: 0
+        Green: 0
+        Blue: 0
+      - Red: 0
+        Green: 0
+        Blue: 0
+      - Red: 0
+        Green: 0
+        Blue: 0
+      - Red: 0
+        Green: 0
+        Blue: 0
+      - Red: 0
+        Green: 0
+        Blue: 0
+  ClearColor:
+    Color:
+      Red: 0
+      Green: 0
+      Blue: 0
+      Alpha: 255
+    PolygonID: 0
+    Depth: 32767
+  BGMID: 65535
+  FieldAreaID: 389
+  CamAspectRatio: 5461
+  CamWScale: 0.100097656
+  FadeInType: 1
+  HasFadeInVSync: 30
+  FadeOutType: 1
+  HasFadeOutVSync: 0
+  Raw:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+
+PlaybackCommands:
+  - StartFrame: 0
+    OpCode: CMD_SCREEN_FADE
+    Mode: NONE
+    Duration: 30
+    SrcColor: 16
+    FadeColor: 0
+  - StartFrame: 0
+    OpCode: CMD_BGM_PLAY
+    BGMid: 1170
+  - StartFrame: 5
+    OpCode: CMD_SE_PLAY
+    SEid: 2052
+    Volume: 30
+    Pan: 0
+    Speed: -100
+    Channel: 1
+  - StartFrame: 31
+    OpCode: CMD_SE_PLAY
+    SEid: 2051
+    Volume: 30
+    Pan: 0
+    Speed: -100
+    Channel: 1
+  - StartFrame: 65
+    OpCode: CMD_SE_PLAY
+    SEid: 2052
+    Volume: 30
+    Pan: 0
+    Speed: -100
+    Channel: 1
+  - StartFrame: 103
+    OpCode: CMD_SE_PLAY
+    SEid: 2051
+    Volume: 30
+    Pan: 0
+    Speed: -100
+    Channel: 1
+  - StartFrame: 139
+    OpCode: CMD_SE_PLAY
+    SEid: 2052
+    Volume: 30
+    Pan: 0
+    Speed: -100
+    Channel: 1
+  - StartFrame: 185
+    OpCode: CMD_SE_PLAY
+    SEid: 2041
+    Volume: 127
+    Pan: 0
+    Speed: 0
+    Channel: 0
+  - StartFrame: 220
+    OpCode: CMD_SE_PLAY
+    SEid: 2054
+    Volume: 127
+    Pan: 0
+    Speed: 0
+    Channel: 1
+  - StartFrame: 223
+    OpCode: CMD_SE_PLAY
+    SEid: 2042
+    Volume: 100
+    Pan: 0
+    Speed: -200
+    Channel: 0
+  - StartFrame: 295
+    OpCode: CMD_SE_PLAY
+    SEid: 2055
+    Volume: 30
+    Pan: 0
+    Speed: 200
+    Channel: 1
+  - StartFrame: 390
+    OpCode: CMD_BGM_FADE
+    Mode: OUT
+    Duration: 25
+  - StartFrame: 390
+    OpCode: CMD_SCREEN_FADE
+    Mode: NONE
+    Duration: 30
+    SrcColor: 0
+    FadeColor: 16
+  - StartFrame: 0
+    OpCode: CMD_END
+
+EndCommands:
+  - StartFrame: 0
+    OpCode: CMD_END
+
+Resources:
+  - ID: 0
+    BundleDecision: NONE
+    Bundles:
+      - ID: 0
+        AnimationGroups:
+          - ID: 0
+            DataIDs:
+              - 196
+              - 194
+              - 195
+  - ID: 1
+    BundleDecision: NONE
+    Bundles:
+      - ID: 0
+        AnimationGroups:
+          - ID: 0
+            DataIDs:
+              - 199
+              - 201
+              - 200
+              - 197
+              - 198
+  - ID: 2
+    BundleDecision: NONE
+    Bundles:
+      - ID: 0
+        AnimationGroups:
+          - ID: 0
+            DataIDs:
+              - 205
+              - 206
+              - 203
+              - 204
+

@@ -1,0 +1,36 @@
+Segments:
+  - ID: 0x0
+    Name: ARM9
+    Type: EXECUTABLE
+  - ID: 0x1
+    Name: 293
+    Type: OVERLAY
+
+Symbols:
+  - Name: GFL_HeapAllocate
+    Segment: 0x0
+    Address: 0x203a229
+  - Name: GFL_ArcSysReadHeapNewDirect
+    Segment: 0x0
+    Address: 0x204a98d
+  - Name: Demo3D_InjectSeqLoad
+    Segment: 0x1
+    Address: 0x21a235b
+  - Name: Demo3D_InjectRscLoad
+    Segment: 0x1
+    Address: 0x21a2af5
+  - Name: Demo3D_CheckIsIDValid
+    Segment: 0x1
+    Address: 0x21a2a0d
+  - Name: Demo3D_GetSeqParamTable
+    Segment: 0x1
+    Address: 0x21a2a19
+  - Name: Demo3D_GetCmdSeq
+    Segment: 0x1
+    Address: 0x21a2c01
+  - Name: Demo3D_GetExitCmdSeq
+    Segment: 0x1
+    Address: 0x21a2c15
+  - Name: Demo3D_GetRscCount
+    Segment: 0x1
+    Address: 0x21A2A48
